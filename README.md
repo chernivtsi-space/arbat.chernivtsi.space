@@ -34,7 +34,7 @@ Booking.com 8.5/10 (810), Google 4.1/5 (801). Знімок на 30.09.2026, пл
 Кількість номерів (цифра 7 — з джерела 2023 року, не актуальна), час заїзду/виїзду, зірковість, email, сайт, Instagram, формат і години ресторану.
 
 ## Forms
-HotelOS (`kp-arbat`): `stay-request` (проживання). Документ `hotels/kp-arbat` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-arbat`): `stay-request` (проживання). Документ `hotels/ch-arbat` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
