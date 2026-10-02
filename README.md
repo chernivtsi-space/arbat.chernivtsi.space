@@ -43,10 +43,20 @@ Booking.com 8.5/10 (810), Google 4.1/5 (801). Знімок на 30.09.2026, пл
 - Address: вул. Сторожинецька, 82, Чернівці
 
 ## Sources
-Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `shared/build/facts.json` у робочому просторі (поза репозиторієм сайту).
+
+## Property-specific sections
+- `#restaurant` Ресторан у готелі
 
 ## Not published
-Кількість номерів (цифра 7 — з джерела 2023 року, не актуальна), час заїзду/виїзду, зірковість, email, сайт, Instagram, формат і години ресторану.
+Кількість номерів (цифра 7 — з джерела 2023 року, не актуальна), зірковість, email, сайт, Instagram, меню, ціни й години ресторану, сніданок (згаданий лише у відгуках), відстані до вокзалу й аеропорту (старий опис Booking).
+
+## Content TODO (не показується на сторінці)
+- [ ] TODO: отримати меню, години роботи й формат ресторану (чи подають сніданок, чи можна для гостей не з готелю)
+- [ ] TODO: уточнити вартість пральні й прасування
+- [ ] TODO: перевірити, чи є ліфт і супермаркет у будівлі (згадано лише у відгуках)
+- [ ] TODO: отримати власні фото закладу (фасад, рецепція, номери, ванні) і погодити їх використання — потім додати галерею
+- [ ] TODO: перевірити ціни й наявність через сам готель; на сторінці цін немає
 
 ## Forms
 HotelOS (`ch-arbat`): `stay-request` (проживання). Документ `hotels/ch-arbat` у Firestore треба створити вручну, інакше правила відхилять заявки.
